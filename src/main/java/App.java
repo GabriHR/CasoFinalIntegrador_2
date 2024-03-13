@@ -136,7 +136,7 @@ public class App {
     }
 
     private static void tourMamiferos() {
-        System.out.println("Bienvenido al tour de mamíferos. Aquí podrán ver a los mamíferos en su hábitat natural.");
+        System.out.println("Bienvenido al tour sobre los mamíferos. Podréis ver a los mamíferos más grandes del zoo.");
         System.out.println("Podrán ver como se comportan los leones, tigres y osos.");
         System.out.println("Además podrán ver a los pandas comiendo bambú.");
         System.out.println("¡No se lo pierdan!");
