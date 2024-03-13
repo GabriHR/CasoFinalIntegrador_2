@@ -149,7 +149,7 @@ public class App {
 
     private static void alimentarElefantes() {
         System.out.println("Bienvenidos al tour para niños. Aquí podréis darle de comer a los elefantes.");
-        System.out.println("Además, podréis ver a los animales más amigables del zoo.");
+        System.out.println("Ademas, podréis ver a los animales más amigables del zoo.");
         System.out.println("¡A disfrutar niños!");
     }
 }
