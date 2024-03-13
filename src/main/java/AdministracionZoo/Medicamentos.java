@@ -1,16 +1,15 @@
 package AdministracionZoo;
 
-public class Medicina extends Recursos {
+public class Medicamentos extends Recursos {
     private String uso;
-    private boolean necesitaPrescripcion;
-    private boolean esAntibiotico;
 
-    public Medicina(String nombre, int cantidad, String uso, boolean necesitaPrescripcion, boolean esAntibiotico) {
+    public Medicamentos(String nombre, int cantidad, String uso) {
         super(nombre, cantidad);
         this.uso = uso;
-        this.necesitaPrescripcion = necesitaPrescripcion;
-        this.esAntibiotico = esAntibiotico;
     }
 
-    // getters y setters
+    @Override
+    public String getDescripcion() {
+        return "Medicamento: " + nombre + ", Cantidad: " + cantidad + ", Uso: " + uso;
+    }
 }
