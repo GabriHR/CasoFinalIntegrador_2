@@ -1,24 +1,16 @@
 package GestionHabitats;
 
 public class Acuatico extends Habitat {
+    public Acuatico(String nombre, double temperatura, double humedad) {
+        super(nombre, temperatura, humedad);
+    }
 
-    boolean puede_nadar;
-
-    public Acuatico(float temperatura, float humedad, boolean limpieza, boolean puede_nadar) {
-        super(temperatura, humedad, limpieza);
-        this.puede_nadar = puede_nadar;
+    public String getCondicionesClimatologicas() {
+        return "Las condiciones climatológicas son ideales para un " + getNombre();
     }
 
     @Override
     public String toString() {
-        return "Actuatico [puede_nadar=" + puede_nadar + "]";
-    }
-
-    public boolean isPuede_nadar() {
-        return puede_nadar;
-    }
-
-    public void setPuede_nadar(boolean puede_nadar) {
-        this.puede_nadar = puede_nadar;
+        return "Animal_Acuatico: " + getNombre() + ", Habitat: " + getHabitat();
     }
 }
